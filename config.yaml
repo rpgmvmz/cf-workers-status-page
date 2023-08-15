@@ -54,28 +54,28 @@ monitors:
     expectStatus: 200
 
   - id: pan1-panbaidu-link
-    name: 前端 1 号
+    name: 公云前端 1 号
     url: 'https://pan1.panbaidu.link/'
     method: GET
     expectStatus: 200
     linkable: false
 
   - id: pan2-panbaidu-link
-    name: 前端 2 号
+    name: 公云前端 2 号
     url: 'https://pan2.panbaidu.link/'
     method: GET
     expectStatus: 200
     linkable: false
 
   - id: pan3-panbaidu-link
-    name: 前端 3 号
+    name: 公云前端 3 号
     url: 'https://pan3.panbaidu.link/'
     method: GET
     expectStatus: 200
     linkable: false
 
   - id: mysql-panbaidu-link
-    name: 后端
+    name: 公云后端
     url: 'https://mysql.panbaidu.link/'
     method: GET
     expectStatus: 200
