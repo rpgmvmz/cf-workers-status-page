@@ -20,12 +20,12 @@ export default function MonitorStatusHeader({ kvMonitorsLastUpdate }) {
   return (
     <div className={`card mb-4 font-semibold ${classes[color]}`}>
       <div className="flex flex-row justify-between items-center">
-        <div>{text}</div>
+        <div>緒山まひろの状態</div>
         {kvMonitorsLastUpdate.time && typeof window !== 'undefined' && (
           <div className="text-xs font-light">
             {' '}
             {Math.round((Date.now() - kvMonitorsLastUpdate.time) / 1000)} 秒
-            前检查过了 (来自{' '}20
+            前检查过了 (来自{' '}
             {locations[kvMonitorsLastUpdate.loc] || kvMonitorsLastUpdate.loc})
           </div>
         )}
