@@ -47,8 +47,36 @@ monitors:
     expectStatus: 200
 
   - id: kemono-su
-    name: kemono.su
+    name: kemono.su（单纯验证域名是否正常）
     description: '漫画图库'
     url: 'https://kemono.su/'
     method: GET
     expectStatus: 200
+
+  - id: pan1-panbaidu-link
+    name: 前端 1 号
+    url: 'https://pan1.panbaidu.link/'
+    method: GET
+    expectStatus: 200
+    linkable: false
+
+  - id: pan2-panbaidu-link
+    name: 前端 2 号
+    url: 'https://pan2.panbaidu.link/'
+    method: GET
+    expectStatus: 200
+    linkable: false
+
+  - id: pan3-panbaidu-link
+    name: 前端 3 号
+    url: 'https://pan3.panbaidu.link/'
+    method: GET
+    expectStatus: 200
+    linkable: false
+
+  - id: mysql-panbaidu-link
+    name: 后端
+    url: 'https://mysql.panbaidu.link/'
+    method: GET
+    expectStatus: 200
+    linkable: false
