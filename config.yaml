@@ -7,8 +7,8 @@ settings:
 
   allmonitorsOperational: '所有站点运行正常'
   notAllmonitorsOperational: '有站点状态异常！'
-  monitorLabelOperational: '运行'
-  monitorLabelNotOperational: '宕机'
+  monitorLabelOperational: '运行中'
+  monitorLabelNotOperational: '宕机中'
   monitorLabelNoData: '无数据'
   dayInHistogramNoData: '无数据'
   dayInHistogramOperational: '很好'
@@ -43,5 +43,12 @@ monitors:
     name: gytk.lol
     description: '短链接转换'
     url: 'https://gytk.lol/'
+    method: GET
+    expectStatus: 200
+
+  - id: kemono-su
+    name: kemono.su
+    description: '漫画图库'
+    url: 'https://kemono.su/'
     method: GET
     expectStatus: 200
