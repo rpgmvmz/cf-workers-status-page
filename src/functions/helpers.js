@@ -73,11 +73,11 @@ export async function notifyTelegram(monitor, operational) {
   }\` \\- 👀 [Status Page](${config.settings.url})`
 
   const payload = new FormData()
-  payload.append('chat_id', 3501571483)
+  payload.append('chat_id', SECRET_TELEGRAM_CHAT_ID)
   payload.append('parse_mode', 'MarkdownV2')
   payload.append('text', text)
 
-  const telegramUrl = `https://api.telegram.org/bot6313401189:AAFvw13qh2r5nmuKWxYcq9qXa29b-F2IL_Y/sendMessage`
+  const telegramUrl = `https://api.telegram.org/bot$SECRET_TELEGRAM_API_TOKEN/sendMessage`
   return fetch(telegramUrl, {
     body: payload,
     method: 'POST',
