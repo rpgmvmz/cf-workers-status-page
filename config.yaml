@@ -32,7 +32,7 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: pan.spx233.top
+  - id: pan-spx233-top
     name: panbaidu-url-pull
     url: 'http://pan.spx233.top'
     method: GET
