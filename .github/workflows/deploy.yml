@@ -31,8 +31,8 @@ jobs:
           echo "[env.production]" >> wrangler.toml
           echo "kv_namespaces = [{binding=\"KV_STATUS_PAGE\", id=\"${KV_NAMESPACE_ID}\"}]" >> wrangler.toml
           [ -z "$SECRET_SLACK_WEBHOOK_URL" ] && echo "Secret SECRET_SLACK_WEBHOOK_URL not set, creating dummy one..." && SECRET_SLACK_WEBHOOK_URL="default-gh-action-secret" || true
-          [ -z "6313401189:AAFvw13qh2r5nmuKWxYcq9qXa29b-F2IL_Y" ] && echo "SECRET_TELEGRAM_API_TOKEN not set, creating dummy one..." && SECRET_TELEGRAM_API_TOKEN="default-gh-action-secret" || true
-          [ -z "3501571483" ] && echo "Secret SECRET_TELEGRAM_CHAT_ID not set, creating dummy one..." && SECRET_TELEGRAM_CHAT_ID="default-gh-action-secret" || true
+          [ -z "$SECRET_TELEGRAM_API_TOKEN" ] && echo "SECRET_TELEGRAM_API_TOKEN not set, creating dummy one..." && SECRET_TELEGRAM_API_TOKEN="default-gh-action-secret" || true
+          [ -z "$SECRET_TELEGRAM_CHAT_ID" ] && echo "Secret SECRET_TELEGRAM_CHAT_ID not set, creating dummy one..." && SECRET_TELEGRAM_CHAT_ID="default-gh-action-secret" || true
           [ -z "$SECRET_DISCORD_WEBHOOK_URL" ] && echo "Secret SECRET_DISCORD_WEBHOOK_URL not set, creating dummy one..." && SECRET_DISCORD_WEBHOOK_URL="default-gh-action-secret" || true
         postCommands: |
           yarn kv-gc
