@@ -35,7 +35,7 @@ monitors:
   - id: pan-spx233-top
     name: panbaidu-url-pull
     description: '度盘分享直链提取'
-    url: 'pan.senapi.net'
+    url: 'https://pan.senapi.net/'
     method: GET
     expectStatus: 200
 
