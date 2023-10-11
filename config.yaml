@@ -1,5 +1,5 @@
 settings:
-  title: '站点监控列表'
+  title: '公云 - 站点监控列表'
   url: 'https://status-page.eidam.dev' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
