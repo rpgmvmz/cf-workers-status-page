@@ -71,7 +71,7 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
         <div className="flex flex-row justify-between items-center p-4">
           <div className="flex flex-row items-center">
             <img className="h-8 w-auto" src={config.settings.logo} />
-            <h1 className="ml-4 text-3xl">緒山まひろの状態</h1>
+            <h1 className="ml-4 text-3xl">站点监控列表</h1>
           </div>
           <div className="flex flex-row items-center">
             {typeof window !== 'undefined' && <ThemeSwitcher />}
