@@ -24,6 +24,14 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
+  - id: pan-gongyun-xyz-cunchixianlu
+    name: 公云下载/在线观看
+    url: 'https://pansudormrfroothome-my.sharepoint.com/'
+    description: '公云存储下载与在线观看线路状态'
+    method: GET
+    expectStatus: 200
+    linkable: false 
+    
   - id: wiki-gongyun-xyz
     name: wiki.gongyun.xyz
     description: '公云存储使用文档'
