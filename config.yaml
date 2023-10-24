@@ -29,7 +29,7 @@ monitors:
     url: 'https://pansudormrfroothome-my.sharepoint.com/'
     description: '公云存储下载与在线观看线路状态'
     method: GET
-    expectStatus: 200
+    expectStatus: 300
     linkable: false 
     
   - id: wiki-gongyun-xyz
