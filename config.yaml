@@ -29,7 +29,7 @@ monitors:
     url: 'https://nodedrive.gongyun.xyz/'
     description: '公云存储独立存储池状态'
     method: GET
-    expectStatus: 300
+    expectStatus: 404
     linkable: false 
     
   - id: wiki-gongyun-xyz
