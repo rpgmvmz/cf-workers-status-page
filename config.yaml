@@ -25,9 +25,9 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: pan-gongyun-xyz-cunchixianlu
-    name: 公云下载/在线观看
-    url: 'https://pansudormrfroothome-my.sharepoint.com/'
-    description: '公云存储下载与在线观看线路状态'
+    name: 独立存储池
+    url: 'https://nodedrive.gongyun.xyz/'
+    description: '公云存储独立存储池状态'
     method: GET
     expectStatus: 300
     linkable: false 
