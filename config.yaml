@@ -31,21 +31,6 @@ monitors:
     method: GET
     expectStatus: 404
     linkable: false 
-    
-  #- id: wiki-gongyun-xyz
-  #  name: wiki.gongyun.xyz
-  #  description: '公云存储使用文档'
-  #  url: 'https://wiki.gongyun.xyz/'
-  #  method: GET
-  #  expectStatus: 200
-  #  linkable: true # allows the title to be a link, default=true
-
-  #- id: pan-spx233-top
-  #  name: panbaidu-url-pull
-  #  description: '度盘分享直链提取'
-  #  url: 'https://pan.senapi.net/'
-  #  method: GET
-  #  expectStatus: 200
 
   - id: gytk-lol
     name: gytk.lol
